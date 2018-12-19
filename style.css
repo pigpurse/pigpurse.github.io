@@ -1,14 +1,45 @@
 /* css for the pig site */
 
-h1, h2, p, li, address {
+h1, h2, h3, p, li, address {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-ul {
+.menu {
+    position: sticky;
+    width: 100%;
+    overflow: auto;
+}
+
+.menu ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.menu ul li a {
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#current {
+    background-color: darkgreen;
+}
+
+.info ul {
     list-style-type: none;
 }
 
-li:before {
+.info ul > li:before {
     content: "- ";
     text-indent: -5px;
 }
