@@ -1,0 +1,29 @@
+/* css for the pig site */
+
+h1, h2, li {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+
+.header {
+
+}
+
+.header h1 {
+    
+    font-size: 50px;
+}
+
+.header img {
+    width: 100px;
+    position: absolute;
+    margin-left: 10px;
+}
