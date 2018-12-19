@@ -31,8 +31,16 @@ h1, h2, h3, p, li, address {
     text-decoration: none;
 }
 
+.menu ul li a:hover {
+    background-color: darkslategrey;
+}
+
 #current {
     background-color: darkgreen;
+}
+
+#current:hover {
+    background-color: darkslategrey;
 }
 
 .info ul {
