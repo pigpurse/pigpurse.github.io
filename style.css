@@ -1,6 +1,6 @@
 /* css for the pig site */
 
-h1, h2, li {
+h1, h2, p, li, address {
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -14,11 +14,11 @@ li:before {
 }
 
 .header {
-
+    margin-right: 100px;
+    text-align: center;
 }
 
 .header h1 {
-    
     font-size: 50px;
 }
 
@@ -26,4 +26,24 @@ li:before {
     width: 100px;
     position: absolute;
     margin-left: 10px;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.info ul li {
+    font-size: 19px;
+}
+
+.info p {
+    margin: 10px 10px;
+    
+}
+
+footer address {
+    font-style: normal;
+    padding-top: 5px;
+    border-top: 1px solid black;
 }
