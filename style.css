@@ -1,6 +1,6 @@
 /* css for the pig site */
 
-h1, h2, h3, p, li, address {
+h1, h2, h3, h4, p, li, address {
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -68,6 +68,14 @@ h1, h2, h3, p, li, address {
     font-size: 24px;
 }
 
+.info h4 {
+    margin-bottom: 0px;
+}
+
+.info ul {
+    margin-top: 5px;
+}
+
 .info ul li {
     font-size: 19px;
 }
@@ -76,7 +84,7 @@ h1, h2, h3, p, li, address {
     margin: 10px 10px;
 }
 
-/* make the list start with dashes */
+/* make the lists start with dashes */
 .info ul {
     list-style-type: none;
 }
@@ -84,6 +92,10 @@ h1, h2, h3, p, li, address {
 .info ul > li:before {
     content: "- ";
     text-indent: -5px;
+}
+
+.info .littlelist li {
+    font-size: 16px;
 }
 
 /* contact info */
