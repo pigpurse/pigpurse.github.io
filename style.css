@@ -5,7 +5,9 @@ h1, h2, h3, p, li, address {
 }
 
 .menu {
+    position: -webkit-sticky; /*safari*/
     position: sticky;
+    top: 0;
     width: 100%;
     overflow: auto;
 }
