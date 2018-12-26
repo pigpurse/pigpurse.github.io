@@ -1,6 +1,6 @@
 /* css for the pig site */
 
-h1, h2, h3, h4, p, li, address {
+h1, h2, h3, h4, p, li, th, address {
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -125,6 +125,29 @@ footer address {
     border-top: 1px solid black;
 }
 
+/* links to sections of the gallery */
+.links {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.links ul {
+    list-style-type: none;
+}
+
+.links li a {
+    border-right: 1px solid black;
+    color: black;
+    display: block;
+    float: left;
+    width: 24%;
+    text-align: center;
+}
+
+#last {
+    border: none;
+}
+
 /* project pics formatting */
 .gallery {
     table-layout: fixed;
@@ -133,4 +156,18 @@ footer address {
 
 .gallery img {
     width: 100%;
+}
+
+.gallery td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.gallery th {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.gallery .bottom {
+    border-bottom: 1px solid LightGray;
 }
