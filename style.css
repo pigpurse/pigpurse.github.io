@@ -110,6 +110,18 @@ h1, h2, h3, h4, p, li, th, address, .desc, .title {
     font-size: 16px;
 }
 
+.biglist {
+    text-align: center;
+}
+
+.column {
+    float: left;
+}
+
+.under {
+    clear: both;
+}
+
 /* contact info */
 footer address {
     font-style: normal;
@@ -142,7 +154,7 @@ footer address {
 
 /* project pics formatting */
 .gallery {
-    width: 240px;
+    width: 200px;
     margin: 5px;
     float: left;
     border: 1px solid #ccc;
