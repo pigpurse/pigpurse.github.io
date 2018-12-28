@@ -116,6 +116,7 @@ h1, h2, h3, h4, p, li, th, address, .desc, .title {
 
 .column {
     float: left;
+    margin-right: 10px;
 }
 
 .under {
